@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de senha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><ins>Gerar senha</ins></h1>
+    <section> 
+            <div>Sua senha aparecerá aqui:<input type="text" name="senha" id="snh"> </div>
+    </section>
+    <br>
+        <section class="n2">
+            <input type="number" name="quant" id="quant"> - > Quantidade de caracteres
+            <p><input type="checkbox" name="letraM" id="letraM"> Incluir letra maiúscula</p>
+            <p><input type="checkbox" name="letraMini" id="letraMini"> Incluir letra minúscula</p>
+            <p><input type="checkbox" name="numb" id="numb"> Incluir número</p>
+            <p><input type="checkbox" name="caract" id="caract">Incluir caractere especial </p>
+        </section>
+    </br>
+        <input type="button" value="Gerar Senha" id="button" onclick="Gerar()">
+    <script src="script.js"></script>
+
+
+    <p>&copy; Project.</p>
+</body>
+</html>

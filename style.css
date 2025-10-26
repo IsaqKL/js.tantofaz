@@ -1,0 +1,29 @@
+body{
+    background-color: darkgrey;
+    font: normal 15pt Arial;
+    text-align: center;
+}
+section{
+   border-radius: 10px;
+   background-color: rgb(108, 124, 138);
+   padding-bottom: 10px;
+   margin: auto;
+   width: 400px;
+}
+section.n2{
+    background-color: rgb(108, 124, 138);
+    padding-bottom: 40px;
+    text-align: left;
+}
+input#snh{
+    width: 250px;
+    height: 30px;
+}
+input#quant{
+    width: 50px;
+    border-radius: 10px;
+}
+input#button{
+    width: 300px;
+    height: 30px;
+}
